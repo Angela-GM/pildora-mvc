@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Online - Carrito de Compra</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Carrito de Compra</h1>
+
+    <div id="productos-container"></div>
+
+    <form id="agregar-producto-form">
+      <h2>Agregar Producto</h2>
+      <input
+        type="text"
+        id="nombre-input"
+        autocomplete="off"
+        required
+        placeholder="Procucto"
+      />
+      <input
+        type="number"
+        id="precio-input"
+        step="0.01"
+        required
+        placeholder="Precio"
+      />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <div id="total-container"></div>
+
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
