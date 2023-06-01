@@ -1,3 +1,4 @@
+// El Controlador actúa como intermediario entre el Modelo y la Vista. En este ejemplo, escucha el evento de envío del formulario para agregar un producto al carrito. Luego, actualiza el Modelo y la Vista correspondientemente.
 class Controlador {
   constructor(modelo, vista) {
     this.modelo = modelo;

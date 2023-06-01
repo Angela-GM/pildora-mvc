@@ -1,3 +1,5 @@
+// En el Modelo, la clase Producto representa un producto con un nombre y un precio. La clase Carrito se encarga de almacenar los productos agregados y calcular el total del carrito.
+
 class Producto {
   constructor(nombre, precio) {
     this.nombre = nombre;

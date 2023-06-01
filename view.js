@@ -1,3 +1,5 @@
+// La Vista maneja la interfaz de usuario. Tiene métodos para obtener los datos del formulario, limpiar el formulario y mostrar los productos y el total en la interfaz.
+
 class Vista {
   constructor() {
     this.productosContainer = document.getElementById("productos-container");
